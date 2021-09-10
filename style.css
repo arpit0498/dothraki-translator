@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Mali&display=swap");
+:root {
+  --primary-color: rgba(37, 6, 24, 0);
+}
+html {
+  background-image: url("images/hero3.png");
+  background-size: cover;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: "Mali", Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 60rem;
+}
+
+.header {
+  background-image: url(images/hero1.jpg);
+  background-size: cover;
+  background-color: var(--primary-color);
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+}
+.header .header-name {
+  font-size: larger;
+}
+.header .header-name h1 {
+  text-align: center;
+}
+
+#txt-input {
+  font-family: "Mali", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
+  width: 90%;
+  height: 20vh;
+  margin: 2rem 2rem;
+  padding: 1rem;
+  background-color: lightgoldenrodyellow;
+}
+
+#btn-translate {
+  background-color: var(--primary-color);
+  padding: 0.5rem 2rem;
+  font-size: 15px;
+  font-weight: bolder;
+  color: black;
+  border: 3px solid black;
+  border-radius: 36px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#output-div {
+  font-family: "Mali", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
+  width: 90%;
+  height: 20vh;
+  margin: 2rem 2rem;
+  padding: 1rem;
+  background-color: lightgoldenrodyellow;
+}
+
+.footer {
+  background-image: url(images/hero1.jpg);
+  font-weight: normal;
+  padding: 1rem 1rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: var(--primary-color);
+}
