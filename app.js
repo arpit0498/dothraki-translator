@@ -6,7 +6,7 @@ var outputDiv =document.querySelector("#output");
 var serverURL="https://funtranslations.com/api/dothraki" ;
 
 function getTranslationURL(text){
-    return serverURL + "?" + "text=" +text ;
+    return serverURL + "?text=" +text ;
 }
 function errorHandler(error){
     console.log("error occured", error);
